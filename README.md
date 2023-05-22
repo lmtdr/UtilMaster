@@ -3,6 +3,8 @@ Essential tool that creates config which provides better utility control in CS:G
 
 With the output config provided from my program, you will be able to have multiple actions on a single key for your utility.
 All you need to do is to input your keybinds for each grenade and also three inputs for keys that will work as a "combinators".
+Final <yourconfig>.cfg can be afterwards load ingame trough console "exec yourconfig.cfg" if it's placed in csgo/cfg folder.
+You can also take content from that .cfg file and directly place them into your config.
 
 By holding each of the combinator, you can do the following actions:
 1) drop specific utility
