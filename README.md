@@ -15,5 +15,7 @@ And ofcourse, select specific utility by just pressing the key bind of your util
 For example, if i want to drop a flash around the corner i am about to peek without the need to select it manually, i hold mouse4 and press C.
 It will execute the action for me automatically and i am able to get a good peek on timing when enemy is most likely turned around or in shock.
 
-If you want for some reason to compile my python script yourself, do it trough pyinstaller along with these parameters:
+If you want for some reason to compile the python script yourself, do it trough pyinstaller along with these parameters:
 `pyinstaller --onefile --window --icon=favicon.ico --add-data "template.txt;." --add-data "favicon.ico;." --add-data "background.png;." hello.py`
+
+Image used in the background is ai-generated
