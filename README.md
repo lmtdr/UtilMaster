@@ -16,4 +16,4 @@ For example, if i want to drop a flash around the corner i am about to peek with
 It will execute the action for me automatically and i am able to get a good peek on timing when enemy is most likely turned around or in shock.
 
 If you want for some reason to compile my python script yourself, do it trough pyinstaller along with these parameters:
-pyinstaller --onefile --window --icon=favicon.ico --add-data "template.txt;." --add-data "favicon.ico;." --add-data "background.png;." hello.py
+`pyinstaller --onefile --window --icon=favicon.ico --add-data "template.txt;." --add-data "favicon.ico;." --add-data "background.png;." hello.py`
