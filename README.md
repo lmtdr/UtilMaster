@@ -10,14 +10,7 @@ By holding each of the combinator, you can do the following actions:
 3) drop specific utility from market menu
 And ofcourse, select specific utility by just pressing the key bind of your utility.
 
-My binds are:
-molotov: X
-smoke: Y
-flash: C
-nade: V
-combinator1: mouse4
-combinator2: mouse5
-combinator3: mouse3
+![alt text](https://github.com/lmtdr/UtilMaster/blob/main/example.png?raw=true)
 
 For example, if i want to drop a flash around the corner i am about to peek without the need to select it manually, i hold mouse4 and press C.
 It will execute the action for me automatically and i am able to get a good peek on timing when enemy is most likely turned around or in shock.
