@@ -1,0 +1,65 @@
+alias "molotov" "use weapon_knife; use weapon_molotov; use weapon_incgrenade; cross"
+alias "smoke" "use weapon_knife; use weapon_smokegrenade; cross-wide"
+alias "flash" "use weapon_knife; use weapon_flashbang; cross"
+alias "nade" "use weapon_knife; use weapon_hegrenade; cross"
+alias "decoy" "use weapon_knife; use weapon_decoy; cross"
+
+// Alternative Command Script by MrMaxim
+// Customized as Inventory Helper Script by czMarv
+
+alias def1 "bind {input1} molotov"
+alias def2 "bind {input2} smoke"
+alias def3 "bind {input3} flash"
+alias def4 "bind {input4} nade"
+alias def5 "bind {input5} decoy"
+
+alias sec1 "bind {input1} second1"
+alias sec2 "bind {input2} second2"
+alias sec3 "bind {input3} second3"
+alias sec4 "bind {input4} second4"
+alias sec5 "bind {input5} second5"
+
+alias trd1 "bind {input1} third1"
+alias trd2 "bind {input2} third2"
+alias trd3 "bind {input3} third3"
+alias trd4 "bind {input4} third4"
+alias trd5 "bind {input5} third5"
+
+alias qad1 "bind {input1} quad1"
+alias qad2 "bind {input2} quad2"
+alias qad3 "bind {input3} quad3"
+alias qad4 "bind {input4} quad4"
+alias qad5 "bind {input5} quad5"
+
+alias second1 "buy molotov"
+alias second2 "buy smokegrenade"
+alias second3 "buy flashbang"
+alias second4 "buy hegrenade"
+alias second5 "buy decoy"
+
+alias third1 "use weapon_knife; use weapon_molotov; use weapon_incgrenade; drop; slot1"
+alias third2 "use weapon_knife; use weapon_smokegrenade; drop; slot1"
+alias third3 "use weapon_knife; use weapon_flashbang; drop; slot1"
+alias third4 "use weapon_knife; use weapon_hegrenade; drop; slot1"
+alias third5 "use weapon_knife; use weapon_decoy; drop; slot1"
+
+alias quad1 "buy unused 26 unused"
+alias quad2 "buy unused 30 unused"
+alias quad3 "buy unused 28 unused"
+alias quad4 "buy unused 29 unused"
+alias quad5 "buy unused 27 unused"
+
+alias +secondarycommand "sec1; sec2; sec3; sec4; sec5"
+alias -secondarycommand "def1; def2; def3; def4; def5"
+
+alias +thirdcommand "trd1; trd2; trd3; trd4; trd5"
+alias -thirdcommand "def1; def2; def3; def4; def5"
+
+alias +quadcommand "qad1; qad2; qad3; qad4; qad5"
+alias -quadcommand "def1; def2; def3; def4; def5"
+
+bind {input6} +secondarycommand
+bind {input7} +thirdcommand
+bind {input8} +quadcommand
+
+def1;def2;def3;def4;def5
