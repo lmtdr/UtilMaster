@@ -18,4 +18,4 @@ It will execute the action for me automatically and i am able to get a good peek
 If you want for some reason to compile the python script yourself, do it trough pyinstaller along with these parameters:
 `pyinstaller --onefile --window --icon=favicon.ico --add-data "template.txt;." --add-data "favicon.ico;." --add-data "background.png;." hello.py`
 
-Image used in the background is ai-generated
+Image used in the background is ai-generated trough https://imgcreator.zmo.ai
